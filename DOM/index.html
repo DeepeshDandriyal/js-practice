@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #333; color: #fff;">
+    <div class="parent">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+    </div>
+</body>
+<script>
+   const parent= document.querySelector('.parent')
+//    console.log(parent.children) //html collection milega(array jesa)
+parent.children[1].style.color='orange'
+// console.log(parent.firstElementChild) //pura div ayega monday ka
+// console.log("NOdes: ",parent.childNodes) //nodelist ayegi isme sb hoga parent ke andr ky ky hai text hai div hai uski class ky hai sb kux
+
+</script>
+</html>
